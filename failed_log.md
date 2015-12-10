@@ -113,8 +113,21 @@ OK，good，遇到一号坑了
 出来了下面这一大段，于是仔细看看：
 
 ```
-WebDriverException: Message: A new session could not be created. (Original error: Could not find a device to launch. You requested 'iPhone 6 (8.3)',but the available devices were: ["iPad 2 (9.1)[B1793443-557C-4DAE-B5E5-371CC1ABBC18]",
-"iPad Air (9.1) [81E1548D-268D-46C6-BE55-2F8B2CF7961D]","iPad Air 2 (9.1) [B765AEEB-D5C7-49DF-A48F-BA4D82658948]","iPad Pro (9.1) [B208F3B6-7A8E-4BB9-B3E2-968743D45984]","iPad Retina (9.1)[DEC5F328-E5B5-4AF4-BD71-8FB96EA20972]","iPhone 4s (9.1)[465AD1F7-E85D-4652-BD61-0651DBA18477]","iPhone 5 (9.1) [A6A8206D-6859-4FA4-8467-36AFC724244C]","iPhone 5s (9.1) [C6146A03-4771-4169-9F8E-6AE1754D109C]","iPhone 6 (9.1) [15015DE0-3BFF-4D13-A61D-C9AE3F152898]","iPhone 6 Plus (9.1)[A07AA020-2CE6-49A6-B166-BE33C7E2FF78]","iPhone 6s (9.1) [C57980BD-976C-4208-AB02-8DCBBF2B6E2F]","iPhone 6s (9.1) + Apple Watch - 38mm (2.0)+ +[DC4C72A3-34A1-4517-89AD-FFEC1EAD03A4]","iPhone 6s Plus (9.1) [652484FC-B7F0-4995-B930-924C95586976]","iPhone 6s Plus (9.1)+ Apple Watch - 42mm(2.0)[822F1F24-043D-46FA-AF22-9EB47BCC8222]"])
+WebDriverException: Message: A new session could not be created.
+(Original error: Could not find a device to launch. You requested 'iPhone 6 (8.3)',but the available devices were: ["iPad 2 (9.1)[B1793443-557C-4DAE-B5E5-371CC1ABBC18]",
+"iPad Air (9.1) [81E1548D-268D-46C6-BE55-2F8B2CF7961D]",
+"iPad Air 2 (9.1) [B765AEEB-D5C7-49DF-A48F-BA4D82658948]",
+"iPad Pro (9.1) [B208F3B6-7A8E-4BB9-B3E2-968743D45984]",
+"iPad Retina (9.1)[DEC5F328-E5B5-4AF4-BD71-8FB96EA20972]",
+"iPhone 4s (9.1)[465AD1F7-E85D-4652-BD61-0651DBA18477]",
+"iPhone 5 (9.1) [A6A8206D-6859-4FA4-8467-36AFC724244C]",
+"iPhone 5s (9.1) [C6146A03-4771-4169-9F8E-6AE1754D109C]",
+"iPhone 6 (9.1) [15015DE0-3BFF-4D13-A61D-C9AE3F152898]",
+"iPhone 6 Plus (9.1)[A07AA020-2CE6-49A6-B166-BE33C7E2FF78]",
+"iPhone 6s (9.1) [C57980BD-976C-4208-AB02-8DCBBF2B6E2F]",
+"iPhone 6s (9.1) + Apple Watch - 38mm (2.0)+ +[DC4C72A3-34A1-4517-89AD-FFEC1EAD03A4]",
+"iPhone 6s Plus (9.1) [652484FC-B7F0-4995-B930-924C95586976]",
+"iPhone 6s Plus (9.1)+ Apple Watch - 42mm(2.0)[822F1F24-043D-46FA-AF22-9EB47BCC8222]"])
 ----------------------------------------------------------------------
 
 Ran 2 tests in 6.220s
