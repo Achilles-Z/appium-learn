@@ -51,7 +51,7 @@ npm install －g appium
 >appium-doctor 
 
 会出来下面的东西
-···
+```
 Running iOS Checks
 ✔ Xcode is installed at /Applications/Xcode.app/Contents/Developer
 ✔ Xcode Command Line Tools are installed.
@@ -63,7 +63,7 @@ Running iOS Checks
 Running Android Checks
 ✖ ANDROID_HOME is not set
 Appium-Doctor detected problems. Please fix and rerun Appium-Doctor.
-···
+```
 iOS Checks 都通过打钩就表示OK了，如果有没通过的 输入y安装好就行了
 
 
