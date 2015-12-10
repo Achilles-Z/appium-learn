@@ -3,11 +3,11 @@
 
 ---
 
-[TOC]
-#Mac OS X EI Capitan 10.11 上搭建环境踩坑记录
+
+## Mac OS X EI Capitan 10.11 上搭建环境踩坑记录
 
 
-## Step1. 安装homebrew
+### Step1. 安装homebrew
 
 打开终端 输入下面的东东
 
@@ -18,7 +18,7 @@
 >ZeckTang-MacBook-Air:~ zecktang$ brew -v
 Homebrew 0.9.5 (git revision 18cf; last commit 2015-12-09)
 
-##Step2. 安装node
+### Step2. 安装node
 
 在终端 输入下面的东东
 
@@ -34,7 +34,7 @@ v5.1.1
 
 --这个过程中有可能会失败，多试几次就好了
 
-##Step3. 安装 appium
+### Step3. 安装 appium
 
 还是在终端 输入下面的东东
 
@@ -44,7 +44,7 @@ npm install －g appium
 
 --安装过程还是有可能会失败，retry吧少年
 
-##Step4. 检查xCode
+### Step4. 检查xCode
 
 在终端 输入下面的东东
 
@@ -67,7 +67,7 @@ iOS Checks 都通过打钩就表示OK了，如果有没通过的 输入y安装�
 
 
 
-##遇到的坑
+### 遇到的坑
 
 好了到了坑了
 
