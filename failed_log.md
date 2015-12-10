@@ -99,10 +99,10 @@ ZeckTang-MacBook-Air:TestApp zecktang$
 python ios_simple.py
 ```
 OK，good，遇到一号坑了
-
 提示appium 的 webdriver 找不到！
 妈蛋的，去贱贱的搜了一下，找到了可能的答案
 是mac的自带的 python版本问题
+
 **需要把系统的python替换成appium的python**
 
 在终端git 这个 地址
