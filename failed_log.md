@@ -10,36 +10,37 @@
 ### Step1. 安装homebrew
 
 打开终端 输入下面的东东
-
->ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
+```
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 安装完成之后 输入brew -v 如果有版本号出来就OK拉
-
->ZeckTang-MacBook-Air:~ zecktang$ brew -v
+```
+ZeckTang-MacBook-Air:~ zecktang$ brew -v
 Homebrew 0.9.5 (git revision 18cf; last commit 2015-12-09)
-
+```
 ### Step2. 安装node
 
 在终端 输入下面的东东
 
->brew install node
-
+```
+brew install node
+```
 安装完成之后 
 
 输入node -v 如果有版本号出来就OK拉
-
+```
 ZeckTang-MacBook-Air:~ zecktang$ node -v
-
 v5.1.1
-
+```
 --这个过程中有可能会失败，多试几次就好了
 
 ### Step3. 安装 appium
 
 还是在终端 输入下面的东东
 
+```
 npm install －g appium
-
+```
 装好之后呢 可以输入 appium-doctor 试下是否OK,睁大眼睛appium后面没跟空格。
 
 --安装过程还是有可能会失败，retry吧少年
@@ -48,8 +49,9 @@ npm install －g appium
 
 在终端 输入下面的东东
 
->appium-doctor 
-
+```
+appium-doctor 
+```
 会出来下面的东西
 ```
 Running iOS Checks
@@ -77,22 +79,25 @@ iOS Checks 都通过打钩就表示OK了，如果有没通过的 输入y安装�
 >samplecode-master/sample-code/apps/TestApp，
 
 进到这个目录在终端输入下面的东东：
->xcodebuild -sdk iphonesimulator 
-
+```
+xcodebuild -sdk iphonesimulator 
+```
 会冒出来很大一堆东西
 
->/usr/bin/touch -c /Users/zecktang/Documents/autotest/sample-code/apps/TestApp/build/Release-iphonesimulator/TestApp.app
+```
+/usr/bin/touch -c /Users/zecktang/Documents/autotest/sample-code/apps/TestApp/build/Release-iphonesimulator/TestApp.app
 ** BUILD SUCCEEDED **
 ZeckTang-MacBook-Air:TestApp zecktang$ 
-
+```
 最后当看到**BUILD SUCCEEDED**则说明编译成功
 编译成功之后 进入如下目录
 >cd /samplecode-master/sample-code/examples/python
 
 然后 运行 ios_simple.py 
 即进到上面那个目录后 在终端输入 
->python ios_simple.py
-
+```
+python ios_simple.py
+```
 OK，good，遇到一号坑了
 
 提示appium 的 webdriver 找不到！
@@ -140,28 +145,31 @@ ZeckTang-MacBook-Air:python zecktang$
 这一行，说的就是脚本指定的是iPhone 6
 **iOS版本是8.3的，但是本地全是iOS版本 9.1的。**
 所以 
->vi ios_simple.py
-
+```
+vi ios_simple.py
+```
 找到       
->'platformVersion': '8.3',
-
+```
+'platformVersion': '8.3',
+```
 这一行 改成       
->'platformVersion': '9.1'
-
-然后
->ESC  :wq 
+```
+'platformVersion': '9.1'
+```
+然后ESC  :wq 
 
 搞定！
 恩，然后就没然后了。
 如果还是没编译OK，检查下appium 是否有启动
 就是在终端输入 
->appium & 
-
+```
+appium & 
+```
 就可以看出来的[X]aaaaa  X是不是1就可以了
-
->ZeckTang-MacBook-Air:TestApp zecktang$ appium &
+```
+ZeckTang-MacBook-Air:TestApp zecktang$ appium &
 [2] 12291
-
+```
 这个表示有2个了
 OK. DAY 1 的记录到这了
 
