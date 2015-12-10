@@ -76,7 +76,7 @@ iOS Checks 都通过打钩就表示OK了，如果有没通过的 输入y安装�
 
 去https://github.com/appium/sample-code  git下来个sample
 然后在终端进入 git的目录，找到
->samplecode-master/sample-code/apps/TestApp，
+>samplecode-master/sample-code/apps/TestApp
 
 进到这个目录在终端输入下面的东东：
 ```
