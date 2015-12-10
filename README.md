@@ -5,5 +5,7 @@
 那么就需要有测试这么个事，所以这个git就是用来记录appium 的学习日志的，就这样。
 
 failed_log : 踩坑日记
+
 docs : 文档(来源appium，有中文的)
+
 examples : 例子(来源appium)
