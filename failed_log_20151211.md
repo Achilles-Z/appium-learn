@@ -31,6 +31,9 @@
 |Show Simulator Log | 是否显示模拟器Log
 |Show iOS System Log | 是否显示iOS系统Log
 
+好吧，后来发现文档里面有，蛋疼
+https://github.com/Achilles-Z/appium-learn/blob/master/docs/cn/writing-running-appium/caps.cn.md
+
 然后一直没Luanch 成功，所以界面也没解出来。
 错误内容部分如下 说是Instruments crashed on startup 
 暂时还没弄明白是咋回事
@@ -138,6 +141,9 @@ self.driver.find_elements_by_class_name
 前三个基本都能明白，就是通过直接的xpath、通过名字、通过id找到控件
 最后一个是通过控件类别找到一个数组，然后数组中的第几个
 这些都是可用之前可视化界面里面那个搜索一样的按钮可以分析出来的,前提是Luanch成功。。
+
+控件元素定位
+https://github.com/Achilles-Z/appium-learn/blob/master/docs/cn/writing-running-appium/finding-elements.cn.md
 
 OK DAY 2就这样了
 
