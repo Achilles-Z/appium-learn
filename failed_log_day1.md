@@ -1,10 +1,7 @@
-# Failed log DAY 1 
+## Failed log DAY 1 
 
 
----
-
-
-## Mac OS X EI Capitan 10.11 上搭建环境踩坑记录
+### Mac OS X EI Capitan 10.11 上搭建环境踩坑记录
 
 
 ### Step1. 安装homebrew
