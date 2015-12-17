@@ -1,4 +1,4 @@
-## Failed log DAY 3 
+## Failed log DAY 2
 
 ### 开始熟悉appium的各个小东西
 
